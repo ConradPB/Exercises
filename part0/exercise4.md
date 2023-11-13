@@ -1,0 +1,7 @@
+
+New Note Diagram
+
+```mermaid
+
+
+```
