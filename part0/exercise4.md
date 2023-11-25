@@ -12,6 +12,11 @@ sequenceDiagram
     server-->>browser: URL Redirect
     deactivate server
 
+    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
+    activate server
+    server-->>browser: URL Redirect
+    deactivate server
+
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.css
     activate server
     server-->>browser: the css file
