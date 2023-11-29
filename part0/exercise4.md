@@ -14,12 +14,12 @@ sequenceDiagram
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
     activate server
-    server-->>browser: 
+    server-->>browser: GET https://studies.cs.helsinki.fi/exampleapp/main.css
     deactivate server
 
-    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.css
+    browser->>server: the css file
     activate server
-    server-->>browser: the css file
+    server-->>browser: 
     deactivate server
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.js
