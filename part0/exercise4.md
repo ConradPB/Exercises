@@ -19,10 +19,10 @@ sequenceDiagram
 
     browser->>server: the css file
     activate server
-    server-->>browser: 
+    server-->>browser: GET https://studies.cs.helsinki.fi/exampleapp/main.js
     deactivate server
 
-    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.js
+    browser->>server: 
     activate server
     server-->>browser: the JavaScript file
     deactivate server
